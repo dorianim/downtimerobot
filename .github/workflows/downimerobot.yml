@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: run
-        uses: dorianim/downtimerobot-action@latest
+        uses: dorianim/downtimerobot-action@v0.0.1
