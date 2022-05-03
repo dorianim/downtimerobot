@@ -1,0 +1,23 @@
+{
+ "exportedDays": 30,
+ "announcements": [
+  {
+   "title": "Server maintainance",
+   "type": "Information",
+   "content": "We did some server maintainance and some updates.",
+   "timeString": "May 02, 2022, 15:15"
+  },
+  {
+   "title": "This is a warning",
+   "type": "Warning",
+   "content": "Something may not be right, but we are still investigating.",
+   "timeString": "May 02, 2022, 12:15"
+  },
+  {
+   "title": "This is an alert",
+   "type": "Alert",
+   "content": "We have a major problem!",
+   "timeString": "May 02, 2022, 12:15"
+  }
+ ]
+}
