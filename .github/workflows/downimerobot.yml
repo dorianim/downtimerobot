@@ -8,5 +8,17 @@ jobs:
     name: Downtimerobot
     runs-on: ubuntu-latest
     steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+        
       - name: run
         uses: dorianim/downtimerobot-action@v0.0.2
+
+      - name: push changes to remote
+        run: |
+          git config --global user.name "downtimerobot"
+          git config --global user.email "downtimerobot@dorian.im"
+
+          git add public
+          git commit -m "Updae from downtimerobot"
+          git push
