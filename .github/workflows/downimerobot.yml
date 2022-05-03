@@ -14,16 +14,9 @@ jobs:
       - name: run
         uses: dorianim/downtimerobot-action@v0.0.2
 
-      - name: push changes to remote
-        run: |
-          git config --local user.name "GitHub Action"
-          git config --local user.email "action@github.com"
-
-          git add public
-          git commit -m "Update from downtimerobot"
-          
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Deploy 🚀
+        if: ${{ github.ref == 'refs/heads/main' }}
+        uses: JamesIves/github-pages-deploy-action@4.1.3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          branch: gh-pages
+          folder: public
