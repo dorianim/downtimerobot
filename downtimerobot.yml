@@ -1,0 +1,37 @@
+frontend:
+  title: "Downtimerobot"
+  icon: 
+
+services:
+  https:
+    - host: google.com
+      name: Goole
+      path: /
+      validStatusCodes: [200,301]
+
+    - host: github.com
+      name: GitHub
+      path: /
+
+    - host: this-domain-does-not-exist.tld
+      name: Non existent
+      disabled: true
+      path: /  
+
+announcements:
+  exportDays: 30
+  announcements:
+    - title: "Server maintainance"
+      type: "Information"
+      content: "We did some server maintainance and some updates."
+      timestring: "2022-05-02 15:15"
+
+    - title: "This is a warning"
+      type: "Warning"
+      content: "Something may not be right, but we are still investigating."
+      timestring: "2022-05-02 12:15"
+
+    - title: "This is an alert"
+      type: "Alert"
+      content: "We have a major problem!"
+      timestring: "2022-05-02 12:15"
