@@ -16,8 +16,8 @@ jobs:
 
       - name: push changes to remote
         run: |
-          git config --global user.name "downtimerobot"
-          git config --global user.email "downtimerobot@dorian.im"
+          git config --local user.name "GitHub Action"
+          git config --local user.email "action@github.com"
 
           git add public
           git commit -m "Update from downtimerobot"
