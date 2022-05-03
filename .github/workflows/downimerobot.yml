@@ -20,5 +20,10 @@ jobs:
           git config --global user.email "downtimerobot@dorian.im"
 
           git add public
-          git commit -m "Updae from downtimerobot"
-          git push
+          git commit -m "Update from downtimerobot"
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
