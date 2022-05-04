@@ -107,7 +107,7 @@
    {
     "up": true,
     "disabled": false,
-    "timeString": "May 04, 2022, 11:02",
+    "timeString": "May 04, 2022, 11:08",
     "durationString": "0 h, 0 min",
     "status": {
      "code": 200,
@@ -117,8 +117,8 @@
   ],
   "responseTimes": [
    {
-    "value": 26,
-    "timeString": "May 04, 2022, 52:02"
+    "value": 87,
+    "timeString": "May 04, 2022, 58:08"
    }
   ]
  },
