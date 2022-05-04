@@ -107,7 +107,7 @@
    {
     "up": true,
     "disabled": false,
-    "timeString": "May 03, 2022, 19:10",
+    "timeString": "May 04, 2022, 11:02",
     "durationString": "0 h, 0 min",
     "status": {
      "code": 200,
@@ -117,12 +117,13 @@
   ],
   "responseTimes": [
    {
-    "value": 225,
-    "timeString": "May 03, 2022, 510:10"
+    "value": 84,
+    "timeString": "May 04, 2022, 52:02"
    }
   ]
  },
  "days": [
+  "May 04, 2022",
   "May 03, 2022",
   "May 02, 2022",
   "May 01, 2022",
@@ -211,8 +212,7 @@
   "February 07, 2022",
   "February 06, 2022",
   "February 05, 2022",
-  "February 04, 2022",
-  "February 03, 2022"
+  "February 04, 2022"
  ],
  "timeZone": "+00:00"
 }
