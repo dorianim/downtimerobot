@@ -1,0 +1,26 @@
+{
+ "github.com": [
+  {
+   "t": 1651954429,
+   "c": 200,
+   "r": 80,
+   "m": ""
+  }
+ ],
+ "google.com": [
+  {
+   "t": 1651954429,
+   "c": 200,
+   "r": 198,
+   "m": ""
+  }
+ ],
+ "this-domain-does-not-exist.tld": [
+  {
+   "t": 1651954429,
+   "c": -1,
+   "r": -1,
+   "m": "The service is disabled"
+  }
+ ]
+}
