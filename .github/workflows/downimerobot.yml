@@ -19,10 +19,10 @@ jobs:
 
       - name: Commit data
         run: |
-          ls
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -m "New crawled data" historicData.json
+          git add historicData.json
+          git commit -m "New crawled data"
           
       - name: Push changes
         uses: ad-m/github-push-action@master 
