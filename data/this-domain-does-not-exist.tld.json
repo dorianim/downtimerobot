@@ -108,7 +108,7 @@
     "up": false,
     "disabled": false,
     "timeString": "",
-    "durationString": "17718683 h, 8 min",
+    "durationString": "17718754 h, 57 min",
     "status": {
      "code": 0,
      "message": ""
@@ -118,6 +118,9 @@
   "responseTimes": []
  },
  "days": [
+  "May 07, 2022",
+  "May 06, 2022",
+  "May 05, 2022",
   "May 04, 2022",
   "May 03, 2022",
   "May 02, 2022",
@@ -204,10 +207,7 @@
   "February 10, 2022",
   "February 09, 2022",
   "February 08, 2022",
-  "February 07, 2022",
-  "February 06, 2022",
-  "February 05, 2022",
-  "February 04, 2022"
+  "February 07, 2022"
  ],
  "timeZone": "+00:00"
 }
