@@ -33,4 +33,4 @@ return result}
 function announcementTypeToIconName(announcementType){switch(announcementType.toLocaleLowerCase()){case "information":return "info"
 case "warning":return "tool"
 case "alert":return "alert-triangle"}}
-function generateAnnouncementIcon(announcementType){return `<use xlink:href="/static/img/symbol-defs.svg#icon-${announcementTypeToIconName(announcementType)}"></use>`}
+function generateAnnouncementIcon(announcementType){return `<use xlink:href="static/img/symbol-defs.svg#icon-${announcementTypeToIconName(announcementType)}"></use>`}
