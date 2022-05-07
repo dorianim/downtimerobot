@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
         
       - name: run
-        uses: dorianim/downtimerobot-action@v0.0.3
+        uses: ghcr.io/dorianim/downtimerobot-action@latest
         
       - name: test
         run: |
