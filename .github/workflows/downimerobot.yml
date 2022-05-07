@@ -1,5 +1,8 @@
 on:
   workflow_dispatch:
+  push:
+    branches: 
+      - main
 
 name: Run Downtimerobot
 
@@ -13,10 +16,18 @@ jobs:
         
       - name: run
         uses: dorianim/downtimerobot-action@latest
-        
-      - name: test
+
+      - name: Commit data
         run: |
-          env
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "New crawled data" historicData.json
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
 
       - name: Deploy 🚀
         if: ${{ github.ref == 'refs/heads/main' }}
